@@ -4,16 +4,19 @@
 p {    margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
-    margin-inline-end: 0px;}
+    margin-inline-end: 0px;
+    font-family:Arial, Helvetica, sans-serif;}
 #box0 {display:flex; height: 1200px; background-color: black; margin-left: 30%; margin-right: 30%;}
 
 #line1 {display:flex; height: 25px; width: 50%;  flex-wrap: wrap; margin-left: 27%; margin-right: 25%; }
 #line2 {display:flex; height: 200px; width: 50%;  flex-wrap: wrap; margin-left: 27%; margin-right: 25%;}
 #box1 {display: flex; width: 75%; height: 70%; font-size: 3.5rem; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; flex-direction: column; }
 #box2 {width: 75%; height: 30%; background-color: rgb(255, 255, 255);}
-#box3 {display: flex; width: 23%; height: 100%; transform:rotate(180deg);}
+#box3 {width: 16%;
+    height: 93%;
+    margin-left: 33px;}
 .margeTitre { width: 5%; height: 70%;}
-#posteTitre {font-size: 30px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color:rgb(274, 171, 11); font-weight:900;}
+#posteTitre {font-size: 40px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color:rgb(274, 171, 11); font-weight:900;}
 
 
 #line3 {display: flex; width: 50%; height: 930px; margin-left: 25%; margin-right: 25%; flex-wrap: wrap;}
@@ -37,19 +40,20 @@ p {    margin-block-start: 0em;
 .logiciel2 {display: flex; ; height: 20px; width: 100%; margin-top: 10px;}
 .texteLogiciel { margin-left: 5%;   height: 100%; width: 55%; color: ivory; font-size: 1rem;}
 .imgLogiciel {display:flex; height: 100%; width: 35%; margin-right: 2%;}
-.boxImgLogiciel {display: flex;  height: 100%; width: 20%;}
+.imgLogiciel1 {display:flex; height: 100%; width: 35%; margin-right: 2% ; color:ivory}
+.boxImgLogiciel {display: flex;  height: 100%; width: 100%; color: ivory}
 #sousTitreLogiciel {height: 100%; width: 20%;}
 .texteTitre2 {margin-left: 2%; height: 100%; width: 89%; color: rgb(20, 15, 4); text-align:center;  display: flex; font-size: 1.5rem;}
 .texteTitre3 {margin-left: 2%; height: 100%; width: 89%; color: rgb(20, 15, 4); text-align:center;  display: flex; font-size: 1.5rem; flex-direction: column;font-size: 13px;}
 
 
-.titreBox5 {display: flex; ; height: 40px; width: 100%; margin-top: 20px; margin-left: 2%;}
+.titreBox5 {display: flex; ; height: 40px; width: 100%; margin-top: 7px; margin-left: 2%;}
 .imgTitre5 { height: 100%; width: 10%; }
-#box6 {display: flex; width: 100%; height: 18%;  margin-top: 2%; margin-left: 2%;margin-right: 2%; flex-wrap: wrap; }
+#box6 {display: flex; width: 100%; height: 18%;  margin-top: 2%; margin-left: -2%;margin-right: 2%; flex-wrap: wrap; }
 #boxPhoto {height: 100%; width: 30%;  display: flex;}
-.profil {display: flex; ; height: 22%; width: 100%; align-items: center; color: azure; font-size: 0.8rem; }
-#texteProfil { height: 78%; width: 95%; display: flex; margin-left: 5%; margin-top: 5%;}
-#containerProfil {height: 100%; width: 68%; flex-direction: column;  display: flex;}
+.profil {display: flex; ; height: 22%; width: 74%; align-items: center; color: azure; font-size: 0.8rem; }
+#texteProfil { height: 78%; width: 95%; display: flex; margin-left: 5%; margin-top: 2%;}
+#containerProfil {height: 100%; width: 100%; flex-direction: column;  display: flex;}
 
 .boxdetail {height :4.4%; width: 100%; display: flex;  margin-right: 2%; margin-left: 2%; margin-top: 2%;}
 .boxdetailProject {width: 100%; display: flex;  margin-right: 2%; margin-left: 2%; margin-top: 2%; }
@@ -59,9 +63,13 @@ p {    margin-block-start: 0em;
 .date {height: 100%; width: 20%; display: flex; color:rgb(235, 164, 12); font-size: 1rem; display:flex; font-weight: bolder; justify-content: flex-end;margin-right: 2%;}
 .texteDetail { height: 5.4%; width: 95%;  margin-right: 2%; margin-top: 2%; display: flex; margin-left: 2%; font-size: 13px; color:black}
 .texteDetailProject { height: 5.4%; width: 95%;  margin-right: 2%; margin-top: 2%; display: flex; margin-left: 2%; font-size: 12px; color:black}
-.surlineBox5 { width: 98%; height: 1px; background-color: rgb(23, 24, 26); margin-left: 2%; margin-right: 2%; margin-top: 10px;}
+.surlineBox5 { width: 98%; height: 1px; background-color: rgb(23, 24, 26); margin-left: 2%; margin-right: 2%; margin-top: 12px;}
+#surlineBox5 { width: 98%; height: 1px; background-color: rgb(23, 24, 26); margin-left: 2%; margin-right: 2%; margin-top: -50px;}
 .posteTitre2 {font-size: 14px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color:black;  font-weight: bolder; display:flex; font-style: italic;}
 
-
+span {
+    color:blue;
+    font-style: italic;
+}
 
 #feet {width: 50%;height: 30px; background-color: rgb(247, 171, 11); margin-left: 25%; margin-right: 25%; margin-top: 1%}
